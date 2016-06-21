@@ -1,13 +1,28 @@
 .page-header {
+  position: relative;
+  
   box-sizing: border-box;
   min-height: 782px;
-  padding-top: 30px;
+  padding-top: 221px;
   
   background: #000000 url("../img/header.jpg") no-repeat;
 }
 
-.page-header__top { /*Обертка для реализации плавающего меню*/
+.page-header__top {
   width: 100%;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.page-header__top--fixed {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .page-header__wrapper {
@@ -18,7 +33,6 @@
   
   width: 1014px;
   margin: 0 auto;
-  margin-bottom: 88px; /*убрать при плавающем меню*/
 }
 
 .page-header__phone { 
