@@ -1,0 +1,37 @@
+.page-header {
+  box-sizing: border-box;
+  min-height: 782px;
+  padding-top: 30px;
+  
+  background: #000000 url("../img/header.jpg") no-repeat;
+}
+
+.page-header__top { /*Обертка для реализации плавающего меню*/
+  width: 100%;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  
+  width: 1014px;
+  margin: 0 auto;
+  margin-bottom: 88px; /*убрать при плавающем меню*/
+}
+
+.page-header__phone { 
+  margin-right: 26px;
+  margin-bottom: 5px;
+  
+  font-size: 24px;
+  line-height: auto;
+  font-weight: 700;
+}
+
+.page-header__logo {
+  width: 139px;
+  height: 46px;
+  margin-left: 26px;
+}

@@ -1,0 +1,34 @@
+.intro {
+  box-sizing: border-box;
+  width: 694px;
+  padding-left: 214px;
+}
+
+.intro__logo {
+  width: 365px;
+  height: 225px;
+  margin-left: -61px;
+  margin-bottom: 95px;
+}
+
+.intro__info {
+  width: 360px;
+  margin-bottom: 26px;
+  
+  font-size: 24px;
+  line-height: auto;
+  font-weight: 300;
+}
+
+.intro__btn {
+  box-sizing: border-box;
+  width: 248px;
+  height: 52px;
+  padding-top: 14px;
+  
+  border-radius: 27px;
+  
+  font-size: 18px;
+  line-height: auto;
+  text-align: center;
+}

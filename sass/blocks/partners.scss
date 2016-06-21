@@ -1,0 +1,60 @@
+.partners {
+  min-height: 533px;
+  
+  background: #ffd400 url("../img/cross-zero.jpg") repeat left bottom;
+  box-shadow: inset 0 0 120px 60px #fab300;
+}
+
+.partners__wrapper {
+  box-sizing: border-box;
+  width: 963px;
+  padding-top: 47px;
+  margin-left: 214px;
+  margin-right: 212px;
+}
+
+.partners__title {
+  margin-bottom: 23px;
+  
+  font-family: "VAG Rounded TL", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.partners__info {
+  margin-bottom: 52px;
+  
+  line-height: 30px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partners__item {
+  margin-right: 80px;
+  margin-bottom: 58px;
+}
+
+.partners__item:nth-child(5) {
+  padding-top: 16px;
+}
+
+.partners__item:last-child {
+  margin-right: auto;;
+}
+
+.partners__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.partners__thanks {
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #000000;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Тестовое задание",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekaterina3/test.git"
+  },
+  "author": "Екатерина Елесова",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ekaterina3/test/issues"
+  },
+  "homepage": "https://github.com/Ekaterina3/test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "editorconfig-tools": "^0.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "editorconfig-tools check *",
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "engines": {
+    "node": "5.11"
+  }
+}
